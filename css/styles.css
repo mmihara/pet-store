@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+/*UNIVERSALS*/
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER*/
+
+header.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#logo-img {
+  width: 105px;
+  height: 95px;
+}
+
+#logo-img~span {
+  display: inline-block;
+  font-family: 'Satisfy', cursive;
+  color: #F3777C;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-top: 25px;
+}
+
+.nav>li>a {
+  font-size: 22px;
+}
+
+/*CALL TO ACTION*/
+.jumbotron {
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+}
+
+.jumbotron>p {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 36px;
+  margin-top: 65px;
+}
+
+/*FEATURED SECTION*/
+.btn-primary {
+  background-color: #5BC0DE;
+  color: #fff;
+  border: none;
+}
+
+.thumbnail {
+  background-color: #EDF1F4;
+  padding: 16px;
+}
+
+/*SERVICES SECTION*/
+#services-section {
+  text-align: center;
+}
+
+#services-nav>li>a {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/*FOOTER SECTION*/
+footer {
+  background-color: #231F20;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#grey-text {
+  color: #BFC0C1;
+  font-size: 16px;
+}
+
+#footer-logo {
+  height: 100px;
+  width: 120px;
+}
+
+.border-left-grey {
+  border-left: 1px solid #302F2F;
+}
+
+.border-left-grey>a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+footer>.col-md-12 {
+  text: #302F2F;
+}
