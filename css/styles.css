@@ -8,10 +8,14 @@ body, html {
 
 /*HEADER*/
 
-header.container-fluid {
+/*header.container-fluid {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}*/
+
+div#logo-wrapper {
+  display: inline;
 }
 
 #logo-img {
@@ -26,6 +30,10 @@ header.container-fluid {
   font-size: 40px;
   text-transform: capitalize;
   margin-top: 25px;
+}
+
+.nav {
+  padding-top: 44px;
 }
 
 .nav>li>a {
